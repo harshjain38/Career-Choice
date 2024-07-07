@@ -1,0 +1,135 @@
+.main{
+    max-width: 1200px;
+    text-align: justify;
+    margin: 11% 15%;
+    display: flex;
+}
+.reg{
+    margin: 11% 15%;
+}   
+
+.brainDiv{
+    flex:1;
+    height: 510px;
+}
+.brainImage{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    border: 0.1px solid #141b33;
+}
+
+.log{
+    background: #152346;
+    border: 1px solid #97B0DD;
+    border-radius: 8px;
+    padding: 4.2% 1rem;
+    align-items: center;
+    text-align: center;
+    margin: 3% 0 3% 22%;
+    flex:1;
+}
+.regi{
+    padding: 2% 1rem 3%;
+    margin: 0 0 0 22%;
+}
+
+h1{
+    color: #fff;
+    font-size: 2.4rem;
+    margin: 0 0 10px;
+}
+
+input {
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #1d2129;
+    margin: 0.6rem 0;
+    padding: 0.75rem 0.75rem;
+    width: 92%;
+    font-size: 1.1rem;
+}
+
+.or{
+    margin: 0.7rem;
+    color: #fff;
+}
+
+.button {
+    background: #196DFE;
+    color: #fff;
+    font-size: 1.3rem;
+    width: 98%;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+.butup{
+    margin-top: 0.7rem;
+}
+
+.disclaimer{
+    color: #fff;
+}
+
+@media(max-width:480px) {
+    .main{
+        margin: 25% 10% 15%;
+        display: flex;
+        flex-direction: column;
+    }
+    .reg{
+        margin: 25% 10% 15%;
+    }
+    .log{
+        margin: 20% 3% 2%;
+    }
+    .regi{
+        padding: 5% 1rem;
+    } 
+    h1{
+        font-size: 1.5rem;
+    }
+    input {
+        padding: 0.45rem 0.75rem;
+        width: 88%;
+        font-size: 0.8rem;
+    }
+    .or{
+        margin: 0.3rem;
+    }
+    .button {
+        font-size: 1rem;
+        padding: 0.3rem;
+        margin: 0.1rem 0;
+    }
+    .butup{
+        margin-top: 0.7rem;
+    }
+    .disclaimer{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:1100px) and (min-width:480px) {
+    .main{
+        margin: 15% 25% 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .reg{
+        margin: 15% 25% 5%;
+    }
+    .log{
+        margin: 20% 0 8%;
+    }
+    .regi{
+        padding: 5% 1rem;
+    } 
+    h1{
+        font-size: 1.9rem;
+    }
+}
